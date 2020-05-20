@@ -10,34 +10,43 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>module3-assignment</title>
+    <title>Food, LLC</title>
 
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
 
   </head>
 
 <body>
 
-  <header>
+<header>
 
-    <nav id="header-nav" class="navbar navbar-default">
+  <nav id="header-nav" class="navbar navbar-default">
 
-      <div class="container">
+    <div class="container">
 
-        <div class="navbar-header">
+      
 
+      <!-- Brand name -->
 
-          <div class="navbar-brand">
+      <div class="navbar-header">
 
-            <h1>Food,LLC</h1>>
+        <div class="navbar-brand">
 
-          </div>
+          <a href="index.html"><h1>Food, LLC</h1></a>
 
+        </div>
 
+        
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+        <!-- Collapsed navigation bar for small screens -->
+
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
 
             <span class="sr-only">Toggle navigation</span>
 
@@ -49,37 +58,105 @@
 
           </button>
 
-        </div>
+      </div>  
+
+      
+
+      <!-- Menu buttons -->
+
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+
+        <ul id="nav-list" class="nav navbar-nav visible-xs">
+
+          <li>  <!-- Chicken -->
+
+            <a href="#chicken">Chicken</a>
+
+          </li>
+
+          <li>  <!-- Beef -->
+
+            <a href="#beef">Beef</a>
+
+          </li>
+
+          <li>  <!-- Sushi -->
+
+            <a href="#sushi">Sushi</a>
+
+          </li>
+
+        </ul><!-- #nav-list -->
+
+      </div><!-- .collapse .navbar-collapse -->
+
+    </div><!-- .container -->
+
+  </nav><!-- #header-nav -->
+
+</header>
 
 
 
-         </header>
+<!-- Home page -->
+
+<div id="main-content" class="container">
+
+  <div id="page-heading" class="text-center">
+
+    <h1>Our Menu</h1>
+
+  </div>
 
 
 
-    <div id="xs-deliver" class="text-center visible-xs">Our Menu</div>
-    <div id="text" class="text-center visible-xs" >Chicken is a Punjabi cuisine favorite. Here's the recipe of one of it's most prized Indian dishes. Boneless chunks of chicken lathered with a rich, buttery gravy of cream, tomatoes and spices. This cuisine is definitely worth trying, especially during festive season. So, impress your guests with nothing but the best.</div>>
+  <section class="row">
+
+    <div class="home-item-tile col-xs-12">
+
+      <h2 id="chicken" class="text-center">Chicken</h2>
+
+      <p>Chicken is a Punjabi cuisine favorite. Here's the recipe of one of it's most prized Indian dishes. Boneless chunks of chicken lathered with a rich, buttery gravy of cream, tomatoes and spices. This cuisine is definitely worth trying, especially during festive season. So, impress your guests with nothing but the best.</p>
+
+    </div>
 
 
 
-  
+    <div class="home-item-tile col-xs-12">
+
+      <h2 id="beef" class="text-center">Beef</h2>
+
+      <p>Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times. Beef is a source of high-quality protein and nutrients. ... Some intestines are cooked and eaten as is, but are more often cleaned and used as natural sausage casings.</p>
+
+    </div>
 
 
-  
 
-        
+    <div class="home-item-tile col-xs-12">
+
+      <h2 id="sushi" class="text-center">Mutton</h2>
+
+      <p>Mutton is meat from a sheep over two years old, and has less tender flesh. In general, the darker the colour, the older the animal. Baby lamb meat will be pale pink, while regular lamb is pinkish-red.
+</p>
+
+    </div>
+
+
+
+  </section><!-- End of #home-tiles -->
+
+</div><!-- End of #main-content -->
 
 
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
 
-  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
 
-  <script src="js/bootstrap.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
   <script src="js/script.js"></script>
 
 </body>
 
 </html>
-
