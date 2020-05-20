@@ -1,165 +1,85 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">	
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Assignment</title>
-<style>
-	*{
-		box-sizing: border-box;
-	}
-	h1{
-		text-align: center;
-		color: green;
-		margin-bottom: 15px;
-	}
-	.h1{
-		background-color: pink;
-		color: black;
-		border: 1px solid black;
-		width: 25%;
-		margin-top: 0;
-		float: right;
-		margin-left: 300px;
-	}
-	.h2{
-		background-color: orange;
-		color: black;
-		border: 1px solid black;
-		width: 25%;
-		margin-top: 0;
-		float: right;
-		margin-left: 300px;
-	}
-	.h3{
-		background-color: yellow;
-		color: black;
-		border: 1px solid black;
-		width: 25%;
-		margin-top: 0;
-		float: right;
-		margin-left: 300px;
-	}
+<!doctype html>
 
+<html lang="en">
 
-	.s{
-		background-color: grey;
-		width: 400px;
-		height: 200px;
-		border: 4px solid black;
-		margin-bottom: 10px;
-		/*margin-left: 10px;
-		margin-right:10px;*/
-		margin-top: 10px;
-		padding-left: 10px;
-		padding-bottom: 10px;
+  <head>
 
-	}
-	.row{
-		width: 100%;
-	}
-	@media (min-width: 992px){
-		.l1,.l2,.l3,.l4,.l5,.l6,.l7,.l8,.l9,.l10,.l11,.l12{
-			float: left;
-		}
-		.l1{
-			width: 8.33%;
-		}
-		.l2{
-			width: 16.66%;
-		}
-		.l3{
-			width: 25%;
-		}
-		.l4{
-			width: 33.32%;
-		}
-		.l5{
-			width: 41.66%;
-		}
-		.l6{
-			width: 49.98%;
+    <meta charset="utf-8">
 
-		}
-		.l7{
-			width: 58.31%;
-		}
-		.l8{
-			width: 66.64%;
-		}
-		.l9{
-			width: 74.97%;
-		}
-		.l10{
-			width: 83.3%;
-		}
-		.l11{
-			width: 91.63%;
-		}
-		.l12{
-			width: 100%;
-		}
-	}
-	@media (min-width: 768px) and (max-width: 991px){
-		.m1,.m2,.m3,.m4,.m5,.m6,.m7,.m8,.m9,.m10,.m11,.m12{
-			float: left;
-		}
-		.m1{
-			width: 8.33%;
-		}
-		.m2{
-			width: 16.66%;
-		}
-		.m3{
-			width: 25%;
-		}
-		.m4{
-			width: 33.32%;
-		}
-		.m5{
-			width: 41.66%;
-		}
-		.m6{
-			width: 49.98%;
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		}
-		.m7{
-			width: 58.31%;
-		}
-		.m8{
-			width: 66.64%;
-		}
-		.m9{
-			width: 74.97%;
-		}
-		.m10{
-			width: 83.3%;
-		}
-		.m11{
-			width: 91.63%;
-		}
-		.m12{
-			width: 100%;
-		}
-	}
-</style>>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</head>
+    <title>module3-assignment</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+
 <body>
-<h1>Our Menu</h1>
-<section class="row">
-<section class="l4 m6 s">
-	<h2 class="h1">Chicken</h2>
-	Chicken is a Punjabi cuisine favorite. Here's the recipe of one of it's most prized Indian dishes. Boneless chunks of chicken lathered with a rich, buttery gravy of cream, tomatoes and spices. This cuisine is definitely worth trying, especially during festive season. So, impress your guests with nothing but the best.
-</section>
-<section class="l4 m6 s">
-	<h2 class="h2">Beef</h2>
-	Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times. Beef is a source of high-quality protein and nutrients. ... Some intestines are cooked and eaten as is, but are more often cleaned and used as natural sausage casings.
-</section>
-<section class="l4 m12 s">
-	<h2 class="h3">Mutton</h2>
-	Mutton is meat from a sheep over two years old, and has less tender flesh. In general, the darker the colour, the older the animal. Baby lamb meat will be pale pink, while regular lamb is pinkish-red.
-</section>
-</section>
+
+  <header>
+
+    <nav id="header-nav" class="navbar navbar-default">
+
+      <div class="container">
+
+        <div class="navbar-header">
+
+
+          <div class="navbar-brand">
+
+            <h1>Food,LLC</h1>>
+
+          </div>
+
+
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+
+            <span class="sr-only">Toggle navigation</span>
+
+            <span class="icon-bar"></span>
+
+            <span class="icon-bar"></span>
+
+            <span class="icon-bar"></span>
+
+          </button>
+
+        </div>
+
+
+
+         </header>
+
+
+
+    <div id="xs-deliver" class="text-center visible-xs">Our Menu</div>
+    <div id="text" class="text-center visible-xs" >Chicken is a Punjabi cuisine favorite. Here's the recipe of one of it's most prized Indian dishes. Boneless chunks of chicken lathered with a rich, buttery gravy of cream, tomatoes and spices. This cuisine is definitely worth trying, especially during festive season. So, impress your guests with nothing but the best.</div>>
+
+
+
+  
+
+
+  
+
+        
+
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+
+  <script src="js/bootstrap.js"></script>
+
+  <script src="js/script.js"></script>
+
 </body>
+
 </html>
+
